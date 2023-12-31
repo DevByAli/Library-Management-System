@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/layout.css" />
+  </head>
+  <body>
+    <header>Library Management System</header>
+    <main>@RenderBody()</main>
+    <nav>
+      <div>
+        <form action="/UserDashboard/index" method="get">
+          <input type="hidden" />
+          <button class="nav-button" type="submit">Home</button>
+        </form>
+      </div>
+      <div>
+        <form action="/UserDashboard/IssuedBooks" method="get">
+          <input type="hidden" />
+          <button class="nav-button" type="submit">Issued Books</button>
+        </form>
+      </div>
+      <div>
+        <form action="/UserDashboard/ChangePassword" method="get">
+          <input type="hidden" />
+          <button class="nav-button" type="submit">Change Password</button>
+        </form>
+      </div>
+      <div>
+        <form action="/UserDashboard/Logout" method="get">
+          <input type="hidden" />
+          <button class="logout-button" type="submit">Logout</button>
+        </form>
+      </div>
+    </nav>
+    <textarea id="typingArea" hidden></textarea>
+    <input type="button" id="sendButton" hidden> 
+    <div class="notification">
+      <h3>Notifications 🔔</h3>
+      <p id="notiarea">Nothing...😴</p>
+    </div>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+  </body>
+</html>
+
+

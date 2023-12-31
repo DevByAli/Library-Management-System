@@ -1,0 +1,22 @@
+@foreach(Book book in Model)
+{
+    <tr class="table-inner-row">
+        <td>@book.Name</td>
+        <td>@book.Author</td>
+        <td>@book.Iban</td>
+        <td>
+            <form action="/Dashboard/index" method="post">
+                <input type="hidden" name="Iban" value="@book.Iban" />
+                <button class="Delete-button" type="submit">Delete</button>
+            </form>
+        </td>
+        <td>
+            <form action="/Dashboard/EditBook" method="post">
+                <input type="hidden" name="Name" value="@book.Name" />
+                <input type="hidden" name="Author" value="@book.Author" />
+                <input type="hidden" name="Iban" value="@book.Iban" />
+                <button class="Edit-button" type="submit">Edit</button>
+            </form>
+        </td>
+    </tr>
+}

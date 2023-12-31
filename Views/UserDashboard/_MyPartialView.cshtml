@@ -1,0 +1,14 @@
+@foreach(Book book in Model)
+{
+    <tr class="table-inner-row">
+        <td>@book.Name</td>
+        <td>@book.Author</td>
+        <td>@book.Iban</td>
+        <td>
+            <form action="/UserDashboard/index" method="post">
+                <input type="hidden" name="iban" value="@book.Iban" />
+                <button class="Delete-button" type="submit">Request</button>
+            </form>
+        </td>
+    </tr>
+}

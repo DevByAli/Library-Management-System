@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/layout.css"/>
+    </head>
+    <body>
+           <header>Library Management System</header>
+           <main>
+                @RenderBody()
+           </main>
+           <nav>
+                <div>
+                
+                    <form action="/Dashboard/index" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">Home</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/AddBook" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">Add Book</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/ApproveRequests" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">View Requests</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/IssueBooks" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">Issued Books</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/AddUser" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">Add User</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/ViewUsers" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">View Users</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/ChangePassword" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">Change Password</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/ViewUserPassword" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">View User Password</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/Notification" method="get">
+                        <input type="hidden"/>
+                        <button class="nav-button" type="submit">Send Notification</button>
+                    </form>
+                </div>
+                <div>
+                    <form action="/Dashboard/Logout" method="get">
+                        <input type="hidden"/>
+                        <button class="logout-button" type="submit">Logout</button>
+                    </form>
+                </div>
+           </nav>
+    </body>
+</html>

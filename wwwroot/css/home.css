@@ -1,0 +1,62 @@
+table tr td {
+  padding: 2px 4px;
+}
+
+.table-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Delete-button {
+  background-color: rgb(227, 43, 43);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.Delete-button:hover {
+  background-color: rgb(237, 70, 70);
+  transition: background-color 0.15s;
+}
+
+.Edit-button {
+  background-color: rgb(50, 98, 230);
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Edit-button:hover {
+  background-color: rgb(78, 119, 234);
+  transition: background-color 0.15s;
+}
+
+.table-inner-row {
+  transition: transform 0.3s ease;
+}
+
+.table-inner-row:hover {
+  transform: scale(1.05); /* Increase the size of the row */
+  box-shadow: 4px 6px 12px 2px rgba(193, 193, 193, 0.671);
+}
+
+.table-inner-row:active {
+  background-color: rgb(240, 239, 239);
+}
+
+table tr td {
+  border: solid;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(195, 194, 194);
+}
+table tr td:hover {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}

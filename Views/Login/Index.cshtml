@@ -1,0 +1,29 @@
+﻿@using LMS;
+@model User;
+@{
+    Layout = null;
+}
+
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="/css/login.css">
+    </head>
+    <body>
+        <div class="login-div">
+            <form asp-action="Index">
+                <div class="login-text">Login</div>
+                <div asp-validation-summary="All"></div>
+                <div>
+                    <input asp-for="Id" type="text" placeholder="User Id" required/>
+                </div>
+                <div>
+                    <input asp-for="Password" type="password" placeholder="Password" required/>
+                </div>
+                <div>
+                    <input class="login-button" type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

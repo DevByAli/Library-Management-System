@@ -1,0 +1,58 @@
+body {
+  background-image: url("/images/LMS.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-text{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+.login-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+  top: 20%;
+  border-radius: 8px;
+  height: 400px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.245);
+  box-shadow: 2px 2px 100px 100px rgba(255, 255, 255, 0.058);
+}
+
+.login-div div input {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.149);
+}
+
+.login-button {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.login-button:hover{
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.666);
+}
+
+.login-button:active{
+    background-color: rgba(0, 0, 0, 0.737);
+}

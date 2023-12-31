@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LMS
+build_property.RootNamespace = LMS
+build_property.ProjectDir = c:\Users\aligr\OneDrive\Desktop\LibraryManagmentSystem\LMS\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\aligr\OneDrive\Desktop\LibraryManagmentSystem\LMS
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/AddBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkZEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkZFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/ApproveRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFwcHJvdmVSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/Components/BookList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENvbXBvbmVudHNcQm9va0xpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEVkaXRCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/IssueBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXElzc3VlQm9va3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXE5vdGlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/ViewUserPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXdVc2VyUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/ViewUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXdVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Dashboard/_MyPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXF9NeVBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Login/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Shared/_userLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF91c2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/UserDashboard/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/UserDashboard/Components/BookList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxDb21wb25lbnRzXEJvb2tMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/UserDashboard/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/UserDashboard/IssuedBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxJc3N1ZWRCb29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/UserDashboard/_MyPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxfTXlQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/aligr/OneDrive/Desktop/LibraryManagmentSystem/LMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

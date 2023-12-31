@@ -1,0 +1,29 @@
+﻿@using LMS
+@model Book
+
+<html>
+
+    <head>
+        <title>Add Book</title>
+        <link rel="stylesheet" href="/css/addbook.css">
+    </head>
+    <body>
+        <div class="add-block">
+            <form class="form" asp-action="AddBook">
+                <div class="msg" asp-validation-summary="All"></div>
+                <div>
+                    <input asp-for="Name" type="text" placeholder="Name" required/>
+                </div>
+                <div>
+                 <input asp-for="Author" type="text" placeholder="Author" required/>
+                </div>
+                <div>
+                    <input asp-for="Iban" type="text" placeholder="IBAN" required/>
+                </div>
+                <div>
+                    <input class="add-button" type="submit" value="Add"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

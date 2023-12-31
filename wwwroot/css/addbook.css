@@ -1,0 +1,40 @@
+.add-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+input,
+.send-button {
+  padding: 8px 8px;
+  box-shadow: inset 4px 4px 6px rgb(243, 243, 243);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(216, 216, 216);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 240px;
+}
+
+.add-button,
+.send-button {
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.add-button:hover,
+.send-button:hover {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.666);
+}
+
+.add-button:active,
+.send-button:active {
+  background-color: rgba(0, 0, 0, 0.871);
+}

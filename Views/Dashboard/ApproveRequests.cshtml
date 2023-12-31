@@ -1,0 +1,44 @@
+@using LMS
+@model List<RequestBook>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Requests</title>
+        <link rel="stylesheet" href="/css/home.css">
+    </head>
+
+    <body>
+         @if(@Model.Count==0)
+        {
+            <h1>No Request!</h1>
+        }
+        else
+        {
+            <div class="table-div">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User Id</th>
+                            <th>IBAN</th>
+                        </tr>
+                    </thead>
+                    @foreach(RequestBook request in Model)
+                    {
+                        <tr class="table-inner-row">
+                            <td>@request.UserId</td>
+                            <td>@request.Iban</td>
+                            <td>
+                                <form action="/Dashboard/ApproveRequests" method="post">
+                                    <input type="hidden" name="UserId" value="@request.UserId" />
+                                    <input type="hidden" name="Iban" value="@request.Iban" />
+                                    <button class="Edit-button" type="submit">Approve</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        }
+    </body>
+</html>
